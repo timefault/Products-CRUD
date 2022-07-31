@@ -1,0 +1,109 @@
+/*
+ * Name:    Woody Nichols
+ * Date:    March 31, 2021
+ * Title:   Nichols8 - CSS styles 
+ * Notes:
+ **/
+ body {
+     background-color: #cebead;
+     font-family: Arial, Helvetica, sans-serif;
+     /* margin-top: 48px; */
+ }
+ input[type=text], input[type=number], textarea {
+     width: 100%;
+     padding: 12px 20px;
+     margin-top: .5em;
+     display: block;
+     border: 1px solid #555;
+     border-radius: 4px;
+     box-sizing: border-box;
+ }
+ input[type=text]:hover, textarea:hover {
+     border: 1px solid white;
+ }
+ input[type=submit]:hover {
+     background-color: #182839;
+     color: white;
+ }
+ header {
+     background-color: #241403;
+     color: #EEE;
+     text-align: center;
+     border: 1px #241403;
+     border-radius: 2px;
+ }
+ dt {
+     font-size: 1.3rem;
+     font-weight: 600;
+     padding-bottom: .5em;
+ }
+dd {
+     font-size: 1rem;
+     padding-bottom: 1.5em;
+ }
+label {
+    display: inline-block;
+    margin-top: 2em;
+    font-weight: 600;
+}
+a {
+     color: #DFDFDF;
+     background-color: #203041;
+     color: #DFDFDF;
+}
+a:hover {
+     color: white;
+     background-color: #182839;
+}
+tr {
+    background-color: #DFCFBE;
+}
+hr {
+    background-color: #EEE;
+}
+
+ .container {
+     width: 50%;
+     margin: 0 auto;
+ }
+ .container-login {
+     width: 50%;
+     height: 100%;
+     margin: auto;
+     
+ }
+ .error-message {
+     color: #d00;
+ }
+ .btn-delete {
+    color: #fff;
+    background-color: #ba2124;
+    border-color: #cb2434;
+ }
+ .btn-update{
+     color: #0f0f0f;
+     background-color: #F0F0F0F0;
+     border-color: #DDD;
+ }
+ .db-error-msg {
+     background-color: #dfcfbe;
+ }
+ .btn-submit{
+     display: block;
+     margin: 1em auto;
+     width: 50%;
+     color: #DFDFDF;
+     background-color: #203041;
+     border-radius: .25rem;
+     font-size: 1.2rem !important;
+ }
+ .mg-top-50 {
+     margin-top:50px;
+ }
+ .card {
+     background-color: #241403;
+ }
+ .card-title, .card-text {
+     color: #EEE;
+ }
+ 

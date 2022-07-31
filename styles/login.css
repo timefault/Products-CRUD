@@ -1,0 +1,18 @@
+.my-container {
+    margin: 0;
+    position: absolute;
+    top: 145px;
+    left: 50%;
+    -ms-transform: translate(-50vw,-50vh);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}   
+a {
+     color: #DFDFDF;
+     background-color: #203041;
+     color: #DFDFDF;
+}
+.btn {
+     background-color: #203041;
+     color: #DFDFDF;
+}
